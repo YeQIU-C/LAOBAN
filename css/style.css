@@ -30,3 +30,23 @@
     color: red;
     font-size: 25px;
 }
+
+/* 移动设备适配 */
+@media screen and (max-width: 768px) {
+    .centered-image {
+        max-width: 90%;  /* 在手机上显示更大的图片 */
+    }
+    
+    .centered-image-small {
+        max-width: 50%;  /* 在手机上显示更大的图片 */
+    }
+    
+    .text-content {
+        font-size: 18px;  /* 调整文字大小 */
+        margin: 15px auto;
+    }
+    
+    .vx-green, .vx-red {
+        font-size: 22px;  /* 调整微信号字体大小 */
+    }
+}
