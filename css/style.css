@@ -1,0 +1,32 @@
+.centered-image {
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.centered-image-small {
+    display: block;
+    max-width: 20%;
+    height: auto;
+    margin: -20px auto 20px;
+}
+
+.text-content {
+    text-align: center;
+    margin: 20px auto;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.vx-green {
+    color: green;
+    font-size: 25px;
+}
+
+.vx-red {
+    color: red;
+    font-size: 25px;
+}
